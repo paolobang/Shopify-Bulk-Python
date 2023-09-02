@@ -9,7 +9,7 @@ merchant = os.getenv('MERCHANT')
 version = os.getenv('API_VERSION')
 
 def shopify_client():
-    api_session = shopify.Session(merchant, '2023-01', token)
+    api_session = shopify.Session(merchant, version, token)
     shopify.ShopifyResource.activate_session(api_session)
     client = shopify.GraphQL()
     return client
