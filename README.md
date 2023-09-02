@@ -110,7 +110,7 @@ To get a local copy up and running follow these simple example steps.
     API_VERSION = '2023-01'
     ```
     
-5. Open "main.ipynb" file restart kernel before to run it.
+5. Open "main.ipynb" file and restart kernel before to run it.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
